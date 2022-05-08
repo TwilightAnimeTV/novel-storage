@@ -8,9 +8,9 @@ $(document).ready(function(){
       sourceLink:"the-devil-does-not-need-to-be-defeated.html"
     },
     {
-      title:"The Devil Does Not Need to Be Defeated",
-      image:"https://novelstoragehome.files.wordpress.com/2022/05/the-devil-does-not-need-to-be-defeated.jpg",
-      sourceLink:""
+      title:"Maou Reijou no Kyouiku Gakari",
+      image:"https://novelstoragehome.files.wordpress.com/2022/05/116131887_987968381637090_1786161356230904797_n.jpg",
+      sourceLink:"maou-reijou-no-kyouiku-gakari.html"
     },
     {
       title:"The Devil Does Not Need to Be Defeated",
