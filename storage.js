@@ -3,6 +3,11 @@ $(document).ready(function(){
   //Storage for Novels  
   const novels = [
     {
+      title:"Gimai Seikatsu",
+      image:"https://cdn.novelupdates.com/images/2021/01/Gimai-Seikatsu.jpg",
+      sourceLink:"Gimai-Seikatsu.html"
+    },
+    {
       title:"Chitose-kun wa Ramune Bin no Naka",
       image:"https://cdn.novelupdates.com/images/2019/11/Chitose-kun-wa-Ramune-Bin-no-Naka.jpg",
       sourceLink:"Chitose-kun-wa-Ramune-Bin-no-Naka.html"
