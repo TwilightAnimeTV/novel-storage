@@ -3,6 +3,11 @@ $(document).ready(function(){
   //Storage for Novels  
   const novels = [
     {
+      title:"Chitose-kun wa Ramune Bin no Naka",
+      image:"https://cdn.novelupdates.com/images/2019/11/Chitose-kun-wa-Ramune-Bin-no-Naka.jpg",
+      sourceLink:"Chitose-kun-wa-Ramune-Bin-no-Naka.html"
+    },
+    {
       title:"Takane No Hana",
       image:"https://cdn.novelupdates.com/images/2021/05/Takane-No-Hana-LN.jpg",
       sourceLink:"Takane-No-Hana.html"
