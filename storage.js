@@ -1,7 +1,12 @@
 $(document).ready(function(){
   
-  //Storage for Novels 
+  //Storage for Novels  
   const novels = [
+    {
+      title:"Is It Too Much to Ask to Be Supported by a Spoiled Older Instructor?",
+      image:"https://cdn.novelupdates.com/images/2020/10/Is-It-Too-Much-to-Be-Supported-by-a-Spoiled-Older-Instructor.jpg",
+      sourceLink:"Is-It-Too-Much-to-Be-Supported-by-a-Spoiled-Older-Instructor.html"
+    },
     {
       title:"A Gal Who Looks Good in an Apron is Unfair!",
       image:"https://cdn.novelupdates.com/images/2022/01/A-Gal-Who-Looks-Good-in-an-Apron-is-Unfair_1642143570.jpg",
