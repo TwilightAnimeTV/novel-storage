@@ -21,23 +21,30 @@ p{line-height: 1;margin:0;}
   height: 500px;
   overflow: hidden;
 }
-#add > li{
+#add2{
+  list-style-type: none;
+  margin: 20px 0 0 0;
+  padding: 0;
+  height: auto;
+  overflow: auto;
+}
+#add > li, #add2 > li{
   display: flex;
   width: 100%;
   margin: 7px 0;
   padding: 7px;
 }
-#add > li img{
+#add > li img, #add2 > li img{
   width:100px;
   height: auto;
   border-radius: 5px;
 }
-#add > li span{
+#add > li span, #add2 > li span{
   margin: 0 7px;
   font-size: 13pt;
   color: #0a6d06;
 }
-#add > li:hover{
+#add > li:hover, #add2 > li:hover{
   border-radius: 5px;
   background: #ffffff;
   box-shadow:  20px 20px 60px #bebebe,

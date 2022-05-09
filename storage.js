@@ -3,6 +3,11 @@ $(document).ready(function(){
   //Storage for Novels  
   const novels = [
     {
+      title:"Takane No Hana",
+      image:"https://cdn.novelupdates.com/images/2021/05/Takane-No-Hana-LN.jpg",
+      sourceLink:"Takane-No-Hana.html"
+    },
+    {
       title:"Is It Too Much to Ask to Be Supported by a Spoiled Older Instructor?",
       image:"https://cdn.novelupdates.com/images/2020/10/Is-It-Too-Much-to-Be-Supported-by-a-Spoiled-Older-Instructor.jpg",
       sourceLink:"Is-It-Too-Much-to-Be-Supported-by-a-Spoiled-Older-Instructor.html"
@@ -25,7 +30,8 @@ $(document).ready(function(){
   ];
   
   //Put items on the list
-  var ul = $(".add"); //ul2 = $("#list");
+  var ul = $(".add");
+  var ul2 = $("#add2");
 
   for(var x in novels){
     var li = document.createElement("li");
@@ -47,6 +53,20 @@ $(document).ready(function(){
     li.append(img);
     li.append(span);
     ul.append(li);
+    
+    var li2 = document.createElement("li");
+    var a2 = document.createElement("a");
+    var img2 = document.createElement("img");
+    var span2 = document.createElement("span");
+    
+    //Put attributes
+    a2.setAttribute("href","");
+    img2.setAttribute("src","");
+    a2.innerHTML = novels[x].title;
+    
+    span2.append(a2);
+    li2.append(span2);
+    ul2.append(li2);
   }
  
 });
