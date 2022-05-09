@@ -1,7 +1,12 @@
 $(document).ready(function(){
   
-  //Storage for Novels
+  //Storage for Novels 
   const novels = [
+    {
+      title:"A Gal Who Looks Good in an Apron is Unfair!",
+      image:"https://cdn.novelupdates.com/images/2022/01/A-Gal-Who-Looks-Good-in-an-Apron-is-Unfair_1642143570.jpg",
+      sourceLink:"A-Gal-Who-Looks-Good-in-an-Apron-is-Unfair.html"
+    },
     {
       title:"The Devil Does Not Need to Be Defeated",
       image:"https://novelstoragehome.files.wordpress.com/2022/05/the-devil-does-not-need-to-be-defeated.jpg",
@@ -11,36 +16,6 @@ $(document).ready(function(){
       title:"Maou Reijou no Kyouiku Gakari",
       image:"https://novelstoragehome.files.wordpress.com/2022/05/116131887_987968381637090_1786161356230904797_n.jpg",
       sourceLink:"maou-reijou-no-kyouiku-gakari.html"
-    },
-    {
-      title:"The Devil Does Not Need to Be Defeated",
-      image:"https://novelstoragehome.files.wordpress.com/2022/05/the-devil-does-not-need-to-be-defeated.jpg",
-      sourceLink:""
-    },
-    {
-      title:"The Devil Does Not Need to Be Defeated",
-      image:"https://novelstoragehome.files.wordpress.com/2022/05/the-devil-does-not-need-to-be-defeated.jpg",
-      sourceLink:""
-    },
-    {
-      title:"The Devil Does Not Need to Be Defeated",
-      image:"https://novelstoragehome.files.wordpress.com/2022/05/the-devil-does-not-need-to-be-defeated.jpg",
-      sourceLink:""
-    },
-    {
-      title:"The Devil Does Not Need to Be Defeated",
-      image:"https://novelstoragehome.files.wordpress.com/2022/05/the-devil-does-not-need-to-be-defeated.jpg",
-      sourceLink:""
-    },
-    {
-      title:"The Devil Does Not Need to Be Defeated",
-      image:"https://novelstoragehome.files.wordpress.com/2022/05/the-devil-does-not-need-to-be-defeated.jpg",
-      sourceLink:""
-    },
-    {
-      title:"In the After School Library A Refined Lady’s Romantic Comedy Cant Be Compromised",
-      image:"images/In-the-After-School-Library-A-Refined-Ladys-Romantic-Comedy-Cant-Be-Compromised.jpg",
-      sourceLink:""
     }
   ];
   
