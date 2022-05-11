@@ -1,6 +1,9 @@
 $(document).ready(function(){
   const novel = [
   {
+    title:"The World of Otome Games is Tough For Mobs",sourceLink:"toughformobs.html"
+  },
+  {
     title:"After My First Love Who is My Classmate Became My Family, My Childhood Friend Became Really Sweet to Me",sourceLink:"After-My-First-Love-Who-is-My-Classmate-Became-My-Family-My-Childhood-Friend-Became-Really-Sweet-to-Me.html"
   },
   {
