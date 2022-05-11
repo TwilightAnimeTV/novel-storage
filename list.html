@@ -11,41 +11,27 @@
    <title>Novel Storage</title>
    <link rel="shortcut icon" href="android-chrome-512x512.png" type="image/x-icon" size="512x512">
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
-   <link rel="stylesheet" href="style.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+   <link rel="stylesheet" href="novels.min.css">
 <body>
- 
- <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-   <div class="container-fluid">
-     <a class="navbar-brand" href="#"><img class="rounded-pill" src="logo.jpg" alt="Logo" width="50px"/></a>
-     <a class="navbar-text" href="#" style="font-size:17pt;">NovelStorage</a>
-     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuContent"><span class="navbar-toggler-icon"></span></button>
-     <div class="collapse navbar-collapse" id="menuContent">
-       <ul class="navbar-nav">
-         <li class="nav-item text-center"><a class="nav-link" href="index.html">Home</a></li>
-         <li class="nav-item text-center"><a class="nav-link" href="list.html">Novels List</a></li>
-       </ul>
-     </div>
-   </div>
- </nav>
- 
- <div class="container-fluid">
-   <div class="container">
-     <h3 class="bg-primary text-white rounded p-1 mt-2 text-center">List of Novels</h3>
-   </div>
-   <ul class="container" id="add2"></ul>
-   <footer class="container center p-1">
-     <span><a href="#">About Us</a></span>
-     <span><a href="#">Report a Problem</a></span>
-     <span><a href="#">®Alright Reserve 2022</a></span>
-     <span><a href="#">©NovelStorage 2022</a></span>
-   </footer>
- </div>
- 
-<!-- scripting -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+  
+  <div class="main-container container-fluid">
+    <article class="container post">
+      <div class="container-fluid" id="backButton"><a href="#" onclick="history.back()">←</a></div>
+      <header id="title"><a href="#">List of Novels</a></header>
+      <ul class="list-group" id="list"></ul>
+    </article>
+    <div class="container-fluid">
+      <footer class="center p-1">
+       <span><a href="about.html">About Us</a></span>
+       <span><a href="#">®Alright Reserve 2022</a></span>
+       <span><a href="#">©NovelStorage 2022</a></span>
+     </footer>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="storage.js" type="text/javascript" charset="utf-8"></script>
+<script src="novels.min.js"></script>
+<script src="storage.js"></script>
 </body>
 </html>
