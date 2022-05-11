@@ -30,8 +30,19 @@
   </div>
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="novels.min.js"></script>
+<script src="jquery-3.6.0.min.js"></script>
 <script src="storage.js"></script>
+<script>
+  
+    $(document).ready(function(){
+      var mylist = $("#list");
+      var listitems = mylist.children('li').get();
+      listitems.sort(function(a, b) {
+      return $(a).text().toUpperCase().localeCompare($(b).text().toUpperCase());
+      });
+      $.each(listitems, function(idx, itm) { mylist.append(itm); });
+    });
+  
+</script>
 </body>
 </html>

@@ -1,5 +1,8 @@
-$(document).ready(function(){
-  const novel = [
+
+  let novel = [
+  {
+    title:"My Plain-looking Fiance is Secretly Sweet with Me",sourceLink:"my-plain-looking-fiance-is-secretly-sweet-with-me-light-novel.html"
+  },
   {
     title:"The World of Otome Games is Tough For Mobs",sourceLink:"toughformobs.html"
   },
@@ -30,10 +33,7 @@ for(var x in novel){
   a.innerHTML = novel[x].title;
   a.href = novel[x].sourceLink;
   
-  li.append(a);
-  ul.append(li);
+  li.appendChild(a);
+  ul.appendChild(li);
 }
 
-var ul = $("#list"); var arr = $.makeArray(ul.children("li")); arr.sort(function(a, b) { var textA = +$(a).text(); var textB = +$(b).text(); if (textA < textB) return -1; if (textA > textB) return 1; return 0; }); ul.empty(); $.each(arr, function() { ul.append(this); });
-
-});
