@@ -1,5 +1,8 @@
 
   let novel = [
+    {
+      title:"I Became Friends with the Second Cutest Girl in My Class",sourceLink:"i-became-friends-with-the-second-cutest-girl-in-my-class-wn.html"
+     },
   {
     title:"My Plain-looking Fiance is Secretly Sweet with Me",sourceLink:"my-plain-looking-fiance-is-secretly-sweet-with-me-light-novel.html"
   },
