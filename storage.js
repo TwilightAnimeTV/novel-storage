@@ -1,6 +1,9 @@
 
   let novel = [
     {
+      title:"Omiai Shitakunakattanode, Muri Nandai na Jouken wo Tsuketara Doukyuusei ga Kita Ken ni Tsuite",sourceLink:"omiai-shitakunakattanode-muri-nandai-na-jouken-wo-tsuketara-doukyuusei-ga-kita-ken-ni-tsuite.html"
+     },
+    {
       title:"I Quit the Going-Home Club for a Girl with a Venomous Tongue",sourceLink:"i-quit-the-going-home-club-for-a-girl-with-a-venomous-tongue.html"
      },
     {
