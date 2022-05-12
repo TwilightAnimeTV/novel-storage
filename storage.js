@@ -1,6 +1,9 @@
 
   let novel = [
     {
+      title:"I Quit the Going-Home Club for a Girl with a Venomous Tongue",sourceLink:"i-quit-the-going-home-club-for-a-girl-with-a-venomous-tongue.html"
+     },
+    {
       title:"I Became Friends with the Second Cutest Girl in My Class",sourceLink:"i-became-friends-with-the-second-cutest-girl-in-my-class-wn.html"
      },
   {
