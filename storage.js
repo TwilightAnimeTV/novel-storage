@@ -1,6 +1,9 @@
 
   let novel = [
     {
+      title:"Clearing an Isekai with the Zero-Believers Goddess – The Weakest Mage among the Classmates (WN)",sourceLink:"clearing-an-isekai-with-the-zero-believers-goddess-the-weakest-mage-among-the-classmates.html"
+     },
+    {
       title:"Omiai Shitakunakattanode, Muri Nandai na Jouken wo Tsuketara Doukyuusei ga Kita Ken ni Tsuite",sourceLink:"omiai-shitakunakattanode-muri-nandai-na-jouken-wo-tsuketara-doukyuusei-ga-kita-ken-ni-tsuite.html"
      },
     {
