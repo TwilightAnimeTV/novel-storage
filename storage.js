@@ -1,6 +1,9 @@
 
   let novel = [
     {
+      title:"Chitose-kun wa Ramune Bin no Naka",sourceLink:"Chitose-kun-wa-Ramune-Bin-no-Naka.html"
+     },
+    {
       title:"Clearing an Isekai with the Zero-Believers Goddess – The Weakest Mage among the Classmates (WN)",sourceLink:"clearing-an-isekai-with-the-zero-believers-goddess-the-weakest-mage-among-the-classmates.html"
      },
     {
