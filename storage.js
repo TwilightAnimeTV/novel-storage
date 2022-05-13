@@ -1,14 +1,11 @@
 
   let novel = [
     {
-      title:"Chitose-kun wa Ramune Bin no Naka",sourceLink:"Chitose-kun-wa-Ramune-Bin-no-Naka.html"
-     },
-    {
-      title:"Clearing an Isekai with the Zero-Believers Goddess – The Weakest Mage among the Classmates (WN)",sourceLink:"clearing-an-isekai-with-the-zero-believers-goddess-the-weakest-mage-among-the-classmates.html"
-     },
-    {
-      title:"Omiai Shitakunakattanode, Muri Nandai na Jouken wo Tsuketara Doukyuusei ga Kita Ken ni Tsuite",sourceLink:"omiai-shitakunakattanode-muri-nandai-na-jouken-wo-tsuketara-doukyuusei-ga-kita-ken-ni-tsuite.html"
-     },
+      title:"Full Clearing Another World under a Goddess with Zero Believers [LN]",sourceLink:"full-clearing-another-world-under-a-goddess-with-zero-believers-light-novel.html"
+    }, 
+    { title:"Chitose-kun wa Ramune Bin no Naka",sourceLink:"Chitose-kun-wa-Ramune-Bin-no-Naka.html" }, 
+    { title:"Clearing an Isekai with the Zero-Believers Goddess – The Weakest Mage among the Classmates (WN)",sourceLink:"clearing-an-isekai-with-the-zero-believers-goddess-the-weakest-mage-among-the-classmates.html" },
+    { title:"Omiai Shitakunakattanode, Muri Nandai na Jouken wo Tsuketara Doukyuusei ga Kita Ken ni Tsuite",sourceLink:"omiai-shitakunakattanode-muri-nandai-na-jouken-wo-tsuketara-doukyuusei-ga-kita-ken-ni-tsuite.html" },
     {
       title:"I Quit the Going-Home Club for a Girl with a Venomous Tongue",sourceLink:"i-quit-the-going-home-club-for-a-girl-with-a-venomous-tongue.html"
      },
