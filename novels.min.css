@@ -102,6 +102,27 @@ nav{
 #shareBtn{
   margin-bottom: 10px;
 }
+.wel{
+  padding: 0
+}
+.welcome{
+  text-align: center;
+  width: 100%;
+}
+.welcome p:first-child{
+  padding: 2px;
+  font-size: 17px;
+  font-weight: 800;
+}
+.welcome p, .welcome p a{
+  margin: 0 7px;
+  font-size: 13px;
+  padding: 0 2px;
+}
+.welcome hr{
+  margin: 0;
+  padding: 0;
+}
 footer span a{
   font-size: 10pt;
   margin: 10px;
