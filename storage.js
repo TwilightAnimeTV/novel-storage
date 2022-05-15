@@ -1,11 +1,7 @@
 
   let novel = [
-    {
-      title:"Classroom Of The Elite",sourceLink:"classroom-of-the-elite.html"
-    }, 
-    {
-      title:"The Angel Next Door Spoils Me Rotten",sourceLink:"otonari-no-tenshi-sama-ni-itsu-no-ma-ni-ka-dame-ningen-ni-sareteita-ken-ln.html"
-    }, 
+     { title:"86",sourceLink:"eighty_six_light_novel.html" },
+    { title:"Classroom Of The Elite",sourceLink:"classroom-of-the-elite.html" }, { title:"The Angel Next Door Spoils Me Rotten",sourceLink:"otonari-no-tenshi-sama-ni-itsu-no-ma-ni-ka-dame-ningen-ni-sareteita-ken-ln.html" },
     {
       title:"Full Clearing Another World under a Goddess with Zero Believers [LN]",sourceLink:"full-clearing-another-world-under-a-goddess-with-zero-believers-light-novel.html"
     }, 
