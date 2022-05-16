@@ -1,5 +1,10 @@
 
   let novel = [
+  
+    {
+          title:"I Got a New Skill Every Time I Was Exiled, and After 100 Different Worlds, I Was Unmatched (WN)",
+         sourceLink:"I-Got-a-New-Skill-Every-Time-I-Was-Exiled-and-After-Different-Worlds-I-Was-Unmatched.html"
+    },
     {
           title:"Date This Super Cute Me!",
          sourceLink:"Date-This-Super-Cute-Me.html"
